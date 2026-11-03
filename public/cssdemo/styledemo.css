@@ -1,0 +1,48 @@
+.demo {
+    z-index: 999;
+}
+
+.modal-backdrop {
+    /* background: none; */
+    z-index: -1;
+}
+.active1 td{
+   color: red!important;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 12px;
+    height: 12px;
+}
+ .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #007bff;
+}
+#questions tr {
+    position: relative;
+}
+.lang{
+    white-space:nowrap;
+    overflow:hidden;
+     text-overflow: ellipsis;
+     width:100%;
+}
+
+@media (max-width:991px) {
+    .header-desktop {
+        height: 50px;
+    }
+
+    .header-button {
+        margin: 0px;
+    }
+
+    .account-dropdown {
+        right: -120px;
+    }
+}
+ 
+.checkLabel {
+    position: absolute;
+    inset: 0;
+}
+

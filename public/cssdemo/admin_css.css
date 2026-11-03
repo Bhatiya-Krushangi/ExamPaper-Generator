@@ -1,0 +1,8 @@
+#questions tr:nth-child(2n + 3)
+{
+    border-top: 8px solid #E5E5E5;
+}
+.overview-chart{
+    height: 160px;
+    position: relative;
+}
